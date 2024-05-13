@@ -1,0 +1,50 @@
+body {
+    color: #EEEEEE;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    padding: 20px;
+    background-image: url('https://pbs.twimg.com/media/F6mXlJoWIAAkRO1.jpg:large');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+p {
+    font-family: "Radio Canada Big";
+  }
+
+img {
+    max-width: 35%;
+    border-radius: 100px;
+  }
+
+.btn {
+    font-size: 5rem;
+    color: #A91D3A;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+.btn:hover {
+    color: #C73659;
+  }
+
+div {
+    text-align: center;
+    background-color: #151515;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+  }
+
+@media only screen and (max-width: 600px) {
+    div {
+        padding: 10px;
+    }
+
+    .btn {
+        font-size: 4rem;
+    }
+  }
